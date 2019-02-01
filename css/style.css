@@ -1,0 +1,185 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background: linear-gradient(35deg, #ccffff, #ffcccc);
+}
+
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.highlight{
+    transform: scale(2);
+}
+
+/* Header **/
+header{
+    background:#ff007d;
+    color: #ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#00ffff 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding:0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #brandidng h1{
+margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:30px;
+}
+
+header.highlight, header.current a{
+    color:#00ffff
+    font-weight:bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+
+/* showcase */
+#showcase{
+    min-height:400px;
+    background:url('../img/showcase.jpg') no-repeat 0 -400px;
+    text-align:center;
+    color:#ffffff;
+    position: relative;
+    top: 10px;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+    font-size:20px;
+}
+
+#newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:#35424a;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    text-align: center;
+    background: repeating-linear-gradient(45deg, #ffffff 0px, #00ffff 40px);
+}
+
+#newsletter h1{
+    float:left;
+    position: relative;
+    right: 10px;
+}
+
+#newletter form{
+    float:right;
+    margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+    pading:4px;
+    height:25px;
+    width:250px;
+}
+
+.input area{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: right;
+}
+
+h1 {
+    color: pink;
+    font-family: lobster;
+    font-weight: 100 !important;
+}
+
+h2 {
+    font-weight: 200;
+}
+p {
+    color: pink;
+}
+
+.showcase.pic {
+    width: 100px;
+}
+
+.cake:hover {
+    transform: scale(1.1);
+}
+.cakes {
+    width: 350px;
+    border-radius: 50%;
+}
+
+.thick-pink-border {
+    border-color: pink;
+    border-style: solid;
+    border-width: 10px; 
+}
+
+.footer {
+    color:pink;
+    background-color:#000000;
+}
+
+.cakes {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+a {
+    color:white !important;
+}
+
+a:hover {
+    color:pink !important;
+}
+
+.heart {
+    position: relative;
+    margin: auto;
+    top: 20px;
+    left: 10px;
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    transform:rotate(-45deg);
+
+}
