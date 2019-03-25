@@ -122,7 +122,7 @@ header a:hover{
 }
 
 h1 {
-    color: pink;
+    color: #000;
     font-family: lobster;
     font-weight: 100 !important;
 }
@@ -131,7 +131,7 @@ h2 {
     font-weight: 200;
 }
 p {
-    color: pink;
+    color: #000;
 }
 
 .showcase.pic {
