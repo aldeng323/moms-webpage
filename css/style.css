@@ -197,6 +197,10 @@ a:hover {
 
 */
 
+a {
+    text-decoration: none;
+}
+
 .footer {
 
     /* padding: 20px 10px; */
@@ -205,7 +209,7 @@ a:hover {
     display: flex;
     font-size: 1rem;
     justify-content: space-around;
-    height: 20px;
+    height: 100vh;
     text-decoration: none;
     list-style: none;
     /* background-color: #000; */
