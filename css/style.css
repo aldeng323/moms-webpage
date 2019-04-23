@@ -197,7 +197,7 @@ a:hover {
 
 */
 
-a {
+.footer a {
     text-decoration: none;
 }
 
@@ -209,7 +209,7 @@ a {
     display: flex;
     font-size: 1rem;
     justify-content: space-around;
-    padding-top:;
+    padding-top: 160%;
     list-style: none;
     /* background-color: #e03480; */
     width: 100%;
