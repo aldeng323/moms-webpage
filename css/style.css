@@ -198,8 +198,7 @@ a:hover {
 */
 
 a {
-
-    color: none;
+    text-decoration: none;
 }
 
 .footer {
@@ -210,8 +209,7 @@ a {
     display: flex;
     font-size: 1rem;
     justify-content: space-around;
-    padding-top: 160%;
-    text-decoration: none;
+    padding-top:;
     list-style: none;
     /* background-color: #e03480; */
     width: 100%;
