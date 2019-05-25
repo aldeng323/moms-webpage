@@ -1,0 +1,136 @@
+/*.contact {
+    position: absolute;
+    background: url('../img/losangeles12.jpg') no-repeat center left/cover;
+    height: 100%;
+    width: 100%;
+} */
+
+/* Main area Styling */
+
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*
+background-attachment
+    fixed = parallax effect
+    scroll = standard scrolling effect
+*/
+
+
+    background-attachment: fixed;
+}
+
+
+
+.pimg1 {
+
+    background-image: url('../img/cupcakes.jpg');
+    min-height: 600px;
+}
+
+.pimg2 {
+
+    background-image: url('../img/losangeles16.jpg');
+    min-height: 400px;
+}
+
+.pimg3 {
+
+    background-image: url('../img/losangeles12.jpg');
+    min-height: 400px;
+}
+
+.section {
+   text-align:center;
+    padding: 50px 80px;
+}
+
+.section p {
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.section a {
+    text-decoration: none;
+    color: rgb(197, 250, 4);
+}
+
+.section ul li {
+    list-style: none;
+    font-size: 1.2rem;
+} 
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+    list-style: none;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.ptext {
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+   color: #000;
+   font-size: 27px;
+   letter-spacing: 8px;
+   text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px; 
+}
+
+
+/* .ptext .border.trans {
+   background-color: transparent;
+   color: #000;
+} */
+
+
+@media(max-width:760px) {
+
+/* .ptext .border.trans {
+   background-color: transparent;
+   color: #000;
+} */
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+}
+
+}
+
+@media(max-height: 414px) {
+
+    .pimg1, .pimg2, .pimg3 {
+        position: relative;
+        opacity: 0.8;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    
+    }  
+}
