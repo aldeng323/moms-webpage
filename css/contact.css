@@ -102,6 +102,41 @@ background-attachment
    color: #000;
 } */
 
+/* 
+
+.banner {
+    width: 100%;
+    background:url(../img/cupcakephotos.jpg);
+    background-size: cover;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    padding: 40px 15px;
+}
+
+.big-text {
+    font-size: 2.5rem;
+    font-weight: 800;
+    animation-delay: 1s;
+}
+
+.banner a {
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.banner a:hover {
+    background: rgb(253, 30, 205);
+    color: #fff;
+}
+
+*/
 
 @media(max-width:760px) {
 
