@@ -1,0 +1,82 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About | Cup Cake Cafe</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/about.css">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </head>
+  <body>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+          <div></div>
+        </div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <div id="arrow-left" class="arrow"></div>
+        <div id="slider">
+          <div class="slide slide1">
+            <div class="slide-content">
+              <span>Image One</span>
+            </div>
+          </div>
+          <div class="slide slide2">
+            <div class="slide-content">
+              <span>Image Two</span>
+            </div>
+          </div>
+          <div class="slide slide3">
+            <div class="slide-content">
+              <span>Image Three</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="arrow-right" class="arrow"></div>
+
+      </div>
+
+
+
+      <script>
+          let sliderImages = document.querySelectorAll('.slide'),
+            arrowLeft = document.querySelector('#arrow-left'),
+            arrowRight = document.querySelector('#arrow-right'),
+            current = 0;
+
+        // Clear all images
+        function reset(){
+          for(let i = 0; i < sliderImages.length; i++){
+            sliderImages[i].style.display = 'none';
+          }
+        }
+
+        function startSlide(){
+          reset();
+          sliderImages[0].style.display = 'block';
+        }
+
+        // 
+
+        startSlide();
+      </script>
+  </body>
+</html>
