@@ -16,11 +16,14 @@ body,  #slider, .wrap, .slide-content {
 }
 
 .slide1{
-  background-image: url('./img/cupcakephotos.jpg')
+  background-image: url('../img/cupcake7.jpg')
 }
+.slide2{background-image: url('../img/cupcake13.jpg')}
+.slide3{background-image: url('../img/cupcake9.jpg')}
+.slide4{background-image: url('../img/cupcake5.jpg')}
+.slide5{background-image: url('../img/cupcake2.jpg')}
+.slide6{background-image: url('../img/cupcake18.jpg')}
 
-.slide2{background-image: url('')}
-.slide3{background-image: url('')}
 
 .slide-content{
   display: flex;
