@@ -16,7 +16,7 @@ body,  #slider, .wrap, .slide-content {
 }
 
 .slide1{
-  background-image: url('img/cupcakephotos.jpg')
+  background-image: url('./img/cupcakephotos.jpg')
 }
 
 .slide2{background-image: url('')}
