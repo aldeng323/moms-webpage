@@ -7,12 +7,19 @@ body,  #slider, .wrap, .slide-content {
   /* overflow-x: hidden; */
 }
 
+.bottomborder {
+  background-color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+
 /* .wrap{position: top;}*/
 
 .slide{
   background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
+  margin-bottom: 100px;
 }
 
 .slide1{
@@ -32,8 +39,8 @@ body,  #slider, .wrap, .slide-content {
   /* align-items: center; */
   text-align: center;
   /* margin-bottom: 100px;*/
-  margin-top: -25px;
-  height: 100vh;
+
+
 }
 
 .slide-content span{
@@ -47,7 +54,7 @@ body,  #slider, .wrap, .slide-content {
 .arrow{
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 100%;
   /* margin-top: 70px;*/
   width: 0;
   height: 0;
@@ -74,12 +81,14 @@ body,  #slider, .wrap, .slide-content {
 h1 {
   text-align: center;
   font-size: 1.5rem;
-  padding-left: 10px;
-  margin-top: 100px;
+  float: right;
+  padding:10px 25px 10px 10px;
+  cursor: pointer;
 }
 
 h2 {
   text-align: center;
+  margin-top: 100px;
 }
 
 p {
@@ -93,6 +102,26 @@ p {
 
 
 @media  (max-width: 600px) {
+
+  .menu-wrap {
+    position: relative;
+    margin-top: 0px;
+  }
+
+  .wrap {
+    padding-top: 125px;
+  }
+
+  .arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    /* margin-top: 70px;*/
+    width: 0;
+    height: 0;
+    border-style: solid;
+
+  }
 
 
   #arrow-left{
@@ -111,25 +140,42 @@ p {
 
   }
 
+  .slide{
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+
+
+
+  }
+
   .slide-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
     /* margin-bottom: 0px; */
-    margin-top: 125px;
+    /* margin-top: 45vh; */
     /* height: 100vh;*/
+    visibility: hidden;
   }
 
-  .slide-content span{
+  /* .slide-content span{
     font-size: 2.5rem;
     color: #ff99dd;
     /*margin-top: 137px;*/
-    visibility: hidden;
+    /*visibility: hidden;
 
-  }
+  } */
+
+h1 {
+  padding-left: 75px;
+  cursor: hidden;
+  margin-top: 0px;
+  position: relative;
 
 
+}
 
   h2 {
     text-align: center;
@@ -143,6 +189,19 @@ p {
     /* margin-top: -9px; */
     visibility: hidden;
   }
+
+}
+
+
+@media (min-width: 600px) {
+
+  .menu-wrap {
+    visibility: hidden;
+  }
+
+.arrow {
+  top: 50vh;
+}
 
 }
 
