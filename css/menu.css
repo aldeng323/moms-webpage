@@ -24,7 +24,7 @@
     width: 60px;
     height: 60px;
     padding: 1.3rem;
-    background: #000;
+    background: #990073;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,7 +75,7 @@
 /* Toggler rotation when hovered over in a checked state */
 .menu-wrap .toggler:checked:hover + .hamburger > div {
     transform: rotate(225deg);
-} 
+}
 
 /* Pop-up menu settings */
 .menu-wrap .toggler:checked ~ .menu {
@@ -138,4 +138,3 @@
     text-decoration: none;
     transition: color 0.4s ease;
 }
-
