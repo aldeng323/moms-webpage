@@ -63,20 +63,20 @@ background-attachment
 .section ul li {
     list-style: none;
     font-size: 1.2rem;
-} 
+}
 
 .section-light {
-    background-color: #f4f4f4;
-    color: #666;
+    background-color: #990073;
+    color: #ffffff;
     list-style: none;
 }
 
 .section-dark {
-    background-color: #282e34;
-    color: #ddd;
+    background-color: #990073;
+    color: #ffffff;
     text-decoration: none;
     list-style: none;
-    
+
 }
 
 .ptext {
@@ -91,9 +91,9 @@ background-attachment
 }
 
 .ptext .border {
-    background-color: #111;
-    color: #fff;
-    padding: 20px; 
+    background-color: #990073;
+    color: #ffffff;
+    padding: 20px;
 }
 
 
@@ -102,7 +102,7 @@ background-attachment
    color: #000;
 } */
 
-/* 
+/*
 
 .banner {
     width: 100%;
@@ -166,6 +166,6 @@ background-attachment
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: scroll;
-    
-    }  
+
+    }
 }
