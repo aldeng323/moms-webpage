@@ -17,7 +17,7 @@
 }*/
 
 body {
-    font-family: 'Calligraffitti', cursive;
+    /* font-family: 'Calligraffitti', cursive; */
     line-height: 1.4;
     min-height: 100vh;
 
@@ -41,7 +41,7 @@ body {
 
 .showcase:before {
     content: '';
-    background: url('../img/cupcakephotos.jpg') no-repeat center center/cover;
+    background: url('../img/food15.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -97,8 +97,8 @@ body {
     justify-content: space-around;
     list-style: none;
     font-size: .8rem;
-    position: fixed;
-    padding: 15px;
+    position: relative;
+    padding: 10px;
     bottom: 0;
     width: 100%;
 
@@ -140,7 +140,7 @@ body {
 
     .showcase:before {
         content: '';
-        background: url('../img/cupcakephotos.jpg') no-repeat center right/cover;
+        background: url('../img/food15.jpg') no-repeat center right/cover;
         position: absolute;
         top: 0;
         left: 0;
