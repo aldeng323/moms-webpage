@@ -57,9 +57,14 @@ background-attachment
     padding: 50px 80px;
 }
 
+.section h2 {
+  color: #990073;
+}
+
 .section p {
     font-size: 1.4rem;
     text-decoration: none;
+    color: #990073;
 }
 
 .section a {
@@ -91,7 +96,7 @@ background-attachment
    top: 50%;
    width: 100%;
    text-align: center;
-   color: #ffffff;
+   color: #990073;
    font-size: 27px;
    letter-spacing: 8px;
    text-transform: uppercase;
