@@ -1,0 +1,81 @@
+@media(max-width: 700px){
+
+  .menu-wrap {
+    position: fixed;
+  }
+
+
+
+  .borderbottom {
+  /* padding: 10px 10px 10px 80px; */
+  text-align: right;
+  position: fixed;
+  padding: 10px;
+  margin-top: -105px;
+  background-color: #ffffff;
+  width: 100%;
+
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.4rem;
+  float: right;
+  cursor: pointer;
+  z-index: 10;
+  background-color: #ffffff;
+  padding-left: 65px;
+  margin: 0 auto;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #990073;
+}
+
+h3 {
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+form {
+  margin-top: 90px;
+}
+
+.count{
+  margin-top: 90px;
+  text-align: center;
+  color: #990073;
+}
+
+.build {
+  margin-top: 90px;
+  text-align: center;
+  color: #990073;
+}
+
+.icing {
+  text-align: center;
+  margin-top: 90px;
+  color: #990073;
+}
+
+.toppings {
+  margin-top: 90px;
+  text-align: center;
+  color: #990073;
+}
+
+.submission {
+  margin-top: 90px;
+  text-align: center;
+  color: #990073;
+}
+
+label #green {
+  color: #71ffcc;
+}
+
+}
