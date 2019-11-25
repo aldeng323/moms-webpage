@@ -1,3 +1,48 @@
+.borderbottom h1 a {
+
+background-color: #ffffff;
+color: #990073;
+text-decoration: none;
+
+}
+
+.borderbottom h1{
+  text-align: center;
+  z-index: 2;
+  margin-top: 20px;
+}
+
+.borderbottom {
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.count {
+  text-align: center;
+}
+
+.build {
+  text-align: center;
+}
+
+.icing {
+  text-align: center;
+}
+
+.toppings {
+  text-align: center;
+}
+
+.submission {
+  text-align: center;
+}
+
+
+
+
 @media(max-width: 700px){
 
   .menu-wrap {
@@ -8,10 +53,11 @@
 
   .borderbottom {
   /* padding: 10px 10px 10px 80px; */
+
   text-align: right;
   position: fixed;
-  padding: 10px;
-  margin-top: -105px;
+
+
   background-color: #ffffff;
   width: 100%;
 
@@ -23,15 +69,18 @@ h1 {
   font-size: 1.4rem;
   float: right;
   cursor: pointer;
-  z-index: 10;
+  z-index: 2;
   background-color: #ffffff;
-  padding-left: 65px;
-  margin: 0 auto;
+  padding: 0 25px 0 57px;
+
+
+
 }
 
 h1 a {
   text-decoration: none;
   color: #990073;
+
 }
 
 h3 {

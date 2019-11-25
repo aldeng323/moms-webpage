@@ -66,6 +66,7 @@ background-attachment
     font-size: 1.4rem;
     text-decoration: none;
     color: #990073;
+    padding: 8px;
 }
 
 .section a {
@@ -161,7 +162,7 @@ background-attachment
 .menu-wrap {
   position: fixed;
   margin-top: 0px;
-  z-index: 12;
+  z-index: 4;
 }
 
 .pimg1, .pimg2, .pimg3 {
@@ -178,10 +179,11 @@ background-attachment
 /* padding: 10px 10px 10px 80px; */
 text-align: right;
 position: fixed;
-padding: 10px;
+
 margin: 0 auto;
 background-color: #ffffff;
 width: 100%;
+z-index: 1;
 
 
 }
@@ -191,7 +193,7 @@ h1 {
   cursor: hidden;
   position: fixed;
   background-color: #ffffff;
-  z-index: 10;
+  z-index: 2;
 
 }
 

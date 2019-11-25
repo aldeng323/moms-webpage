@@ -7,10 +7,20 @@ body,  #slider, .wrap, .slide-content {
   /* overflow-x: hidden; */
 }
 
-.bottomborder {
-  background-color: #000000;
-  text-align: center;
-  padding: 20px;
+
+
+.borderbottom {
+  clear: right;
+  margin: 0 8px;
+  background-color: #990073;
+  width: 100%;
+
+}
+
+.borderbottom h1 a{
+  text-decoration: none;
+
+
 }
 
 /* .wrap{position: top;}*/
@@ -87,7 +97,7 @@ body,  #slider, .wrap, .slide-content {
 h1 {
   text-align: center;
   font-size: 1.5rem;
-  float: right;
+  float: left;
   padding:10px 25px 10px 10px;
   cursor: pointer;
 }
@@ -97,17 +107,33 @@ h2 {
   margin-top: 0px;
 }
 
+h3 {
+  padding: 75px 0 0 75px;
+}
+
 p {
   font-size: 10px;
   justify-content: right;
   /* margin-top: -9px; */
 }
 
+.pclass1 {
+  margin-bottom: 100px;
+  padding: 20px;
+  text-indent: 20px;
+  font-size: .8rem;
+}
+
+.footer {
+  margin: 100% 0 0 0;
+  position: fixed;
+}
 
 
 
 
-@media  (max-width: 600px) {
+
+@media  (max-width: 824px) {
 
   .menu-wrap {
     position: fixed;
@@ -190,6 +216,8 @@ h1 {
   position: fixed;
   background-color: #ffffff;
   z-index: 10;
+  text-align: center;
+  width: 100%;
 
 }
 
@@ -251,11 +279,51 @@ h1 {
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 824px) {
 
   .menu-wrap {
     visibility: hidden;
   }
+
+  .menu {
+    visibility: visible;
+    display: grid;
+  }
+
+  h1 a {
+    float: left;
+    color: #990073;
+
+  }
+
+  .pclass {
+    padding: 0 200px;
+  }
+
+  .pclass1 {
+    margin: 0 200px;
+  }
+
+  .borderbottom {
+    margin: 90px 0;
+
+    background-color: #ffffff;
+
+  }
+
+  ul {
+    visibility: visible;
+    color: #990073;
+    margin: 20px;
+  }
+
+  li a {
+    visibility: visible;
+    color: #990073;
+  }
+
+
+
 
 
 
