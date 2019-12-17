@@ -7,6 +7,8 @@
 
 /* Main area Styling */
 
+
+
 h1 {
   text-align: center;
   font-size: 1.5rem;
@@ -63,7 +65,7 @@ background-attachment
 }
 
 .section p {
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-decoration: none;
     color: #990073;
     padding: 8px;
@@ -188,6 +190,10 @@ z-index: 1;
 
 }
 
+.secondmenu {
+  display: none;
+}
+
 h1 {
   padding-left: 75px;
   cursor: hidden;
@@ -200,6 +206,12 @@ h1 {
 h1 a {
   text-decoration: none;
   color: #990073;
+}
+
+section p .tryagain {
+  text-align: center;
+  padding: 400px;
+  font-size: 6px;
 }
 
 }
@@ -215,4 +227,50 @@ h1 a {
         background-attachment: scroll;
 
     }
+}
+
+@media(min-width: 761px) {
+  .menu-wrap {
+    visibility: hidden;
+  }
+
+ nav {
+
+   padding: 12px;
+   float: right;
+ }
+
+
+
+li {
+  display: inline-block;
+  padding: 12px;
+}
+
+li a {
+  text-decoration: none;
+  color: #990073;
+}
+
+  .borderbottom {
+    display: inline-block;
+
+  }
+
+  .borderbottom h1 {
+
+    float: left;
+    text-align: center;
+    padding: 20px;
+
+
+
+
+  }
+
+  .borderbottom a {
+    text-decoration: none;
+    color: #990073;
+
+  }
 }

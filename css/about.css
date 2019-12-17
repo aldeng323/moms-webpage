@@ -13,7 +13,7 @@ body,  #slider, .wrap, .slide-content {
   clear: right;
   margin: 0 8px;
   background-color: #990073;
-  width: 100%;
+  
 
 }
 
@@ -98,7 +98,7 @@ h1 {
   text-align: center;
   font-size: 1.5rem;
   float: left;
-  padding:10px 25px 10px 10px;
+  padding: 0px 25px 0px 10px;
   cursor: pointer;
 }
 
@@ -139,6 +139,10 @@ p {
     position: fixed;
     margin-top: 0px;
     z-index: 12;
+  }
+
+  .secondmenu {
+    visibility: hidden;
   }
 
   .wrap {
@@ -211,6 +215,7 @@ p {
 
 h1 {
   padding-left: 75px;
+  padding-top: 20px;
   cursor: hidden;
   margin-top: 0px;
   position: fixed;
@@ -220,6 +225,8 @@ h1 {
   width: 100%;
 
 }
+
+
 
   h1 a {
     text-decoration: none;
@@ -282,19 +289,14 @@ h1 {
 @media (min-width: 824px) {
 
   .menu-wrap {
-    visibility: hidden;
+    display: none;
   }
 
-  .menu {
-    visibility: visible;
-    display: grid;
-  }
 
-  h1 a {
-    float: left;
-    color: #990073;
 
-  }
+
+
+
 
   .pclass {
     padding: 0 200px;
@@ -305,21 +307,37 @@ h1 {
   }
 
   .borderbottom {
-    margin: 90px 0;
+    margin: 0;
 
     background-color: #ffffff;
+    display: inline-block;
 
   }
 
-  ul {
-    visibility: visible;
-    color: #990073;
-    margin: 20px;
+  .secondmenu {
+
+    float: right;
   }
 
   li a {
+    text-decoration: none;
+  }
+
+  li {
     visibility: visible;
     color: #990073;
+
+    text-align: center;
+
+    padding: 5px;
+
+
+  }
+
+
+
+  li: hover {
+    color: yellow;
   }
 
 
