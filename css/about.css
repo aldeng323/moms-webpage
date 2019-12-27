@@ -13,7 +13,7 @@ body,  #slider, .wrap, .slide-content {
   clear: right;
   margin: 0 8px;
   background-color: #990073;
-  
+
 
 }
 
@@ -260,6 +260,7 @@ h1 {
 
     margin: 20px;
     color: #990073;
+    text-align: center;
   }
 
   .pclass {
